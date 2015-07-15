@@ -1,20 +1,20 @@
 //
 //  AppDelegate.swift
-//  TransliteratingKeyboard
+//  RobberLanguage
 //
-//  Created by Alexei Baboulevitch on 6/9/14.
-//  Copyright (c) 2014 Apple. All rights reserved.
+//  Created by Peder Søholt(p) on 15.07.15.
+//  Copyright (c) 2015 Apple. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-                            
+
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

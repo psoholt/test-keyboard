@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Catboard</string>
+	<string>CustomKeyboard</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>Archagon.HostingApp.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.peder.RobberLanguage.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -32,13 +32,11 @@
 			<false/>
 			<key>PrimaryLanguage</key>
 			<string>en-US</string>
-			<key>RequestsOpenAccess</key>
-			<true/>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.keyboard-service</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>${PRODUCT_MODULE_NAME}.Catboard</string>
+		<string>${PRODUCT_MODULE_NAME}.CustomKeyboard</string>
 	</dict>
 </dict>
 </plist>
